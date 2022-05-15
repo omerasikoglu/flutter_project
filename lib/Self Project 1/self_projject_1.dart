@@ -19,8 +19,7 @@ void main(){
   String turAdi = "Macera";
   int turNo = 2;
 
-  String yazarAd =  "James Matthew";
-  String yazarSoyad =  "Barrie";
+  String yazarAd = "Lewis";
+  String yazarSoyad = "Carroll";
   int yazarNo = 8;
-
 }
