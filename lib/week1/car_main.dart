@@ -5,9 +5,11 @@ void main(){
   //nesne oluşturma
   var bmw = Car(color: "blue", speed: 200, isExecuting: true);
 
-  //değer okuma
-  print("Color: ${bmw.color}");
-  print("Speed: ${bmw.speed}");
-  print("IsExecuting: ${bmw.isExecuting}");
+  bmw.takeInfo(); //read value
+  bmw.accelerate(50);
+  bmw.takeInfo();
+
+ var limuzin = Car(color: "white", speed: 500, isExecuting: true);
+ limuzin.takeInfo();
 
 }
