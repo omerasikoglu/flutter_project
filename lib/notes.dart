@@ -13,5 +13,6 @@ Any => kotlin, swift'te kullanılır
 objcet => java
 dynamic => dart
 
+//thread asenkron işlemler için kullanılır
 
  */
